@@ -63,6 +63,9 @@ Acts as the main controller that imports functions from other modules and execut
 
 ## 🏗️ Folder Structure
 
+## 🏗️ Folder Structure
+
+```bash
 caesar_cipher_tool/
 ├── caesar_cipher_tool.py
 ├── input_module.py
@@ -70,7 +73,7 @@ caesar_cipher_tool/
 ├── decryptor.py
 ├── display.py
 ├── file_writer.py
-└── output.txt (generated after run)
+└── output.txt  # (generated after run)
 
 
 ---
