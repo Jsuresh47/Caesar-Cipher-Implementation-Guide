@@ -63,8 +63,6 @@ Acts as the main controller that imports functions from other modules and execut
 
 ## 🏗️ Folder Structure
 
-## 🏗️ Folder Structure
-
 
 caesar_cipher_tool/
 ├── caesar_cipher_tool.py
@@ -75,7 +73,7 @@ caesar_cipher_tool/
 ├── file_writer.py
 └── output.txt  # (generated after run)
 
-
+---
 
 ## ▶️ How to Run
 
