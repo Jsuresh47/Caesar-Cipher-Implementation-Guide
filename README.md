@@ -73,8 +73,6 @@ caesar_cipher_tool/
 └── output.txt (generated after run)
 
 
-
-
 ---
 
 ## ▶️ How to Run
@@ -93,6 +91,7 @@ Example Walkthrough
 
 Input:
 Enter the text: HELLO WORLD
+
 Enter the shift key: 5
 
 Output:
