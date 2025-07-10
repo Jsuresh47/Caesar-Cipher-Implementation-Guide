@@ -5,9 +5,17 @@ from display import display_output
 from file_writer import save_to_file
 
 def main():
-    text, key = get_input()
-    encrypted = encrypt(text, key)
-    decrypted = decrypt(encrypted, key)
+    mode, text, key = get_input()
+    if mode == 'E':
+        encrypted = encrypt(text, key)
+        decrypted = decrypt(encrypted, key)
+    elif mode == 'D':
+        decrypted = decrypt(text, key)
+        encrypted = encrypt(decrypted, key)
+    else:
+        print("Invalid mode selected.")
+        return
+
     display_output(encrypted, decrypted)
     save_to_file(encrypted)
 
